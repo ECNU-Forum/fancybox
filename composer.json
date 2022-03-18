@@ -1,5 +1,5 @@
 {
-    "name": "darkle/fancybox",
+    "name": "ecnu-im/fancybox",
     "description": "Fancybox is a touch enabled and responsive tool for displaying images in a 'lightbox' that floats overtop of web page.",
     "type": "flarum-extension",
     "keywords": ["flarum","extension","images","fancybox"],
@@ -8,11 +8,15 @@
         {
             "name": "Tomás Romero",
             "email": "tomasromero@outlook.com"
+        },
+        {
+            "name": "jjaychen",
+            "email": "jjaychen1e@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/iamdarkle/fancybox/issues",
-        "source": "https://github.com/iamdarkle/fancybox",
+        "issues": "https://github.com/ECNU-Forum/fancybox/issues",
+        "source": "https://github.com/ECNU-Forum/fancybox",
         "forum": "https://discuss.flarum.org/d/29102"
     },
     "require": {
@@ -20,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "darkle\\fancybox\\": "src/"
+            "ecnu-im\\fancybox\\": "src/"
         }
     },
     "extra": {

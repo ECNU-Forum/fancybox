@@ -3,7 +3,7 @@ import { extend } from 'flarum/common/extend';
 import CommentPost from 'flarum/forum/components/CommentPost';
 import { Fancybox } from '@fancyapps/ui';
 
-app.initializers.add('darkle/fancybox', () => {
+app.initializers.add('ecnu-im/fancybox', () => {
   Fancybox.defaults.Image = { zoom: false };
 
   extend(CommentPost.prototype, 'oncreate', function (vnode) {
